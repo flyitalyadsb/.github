@@ -30,11 +30,18 @@ Code written for the ADS-B Exchange v2 API works with a new host and key.
 ## For feeders
 
 The network is made of receivers like yours (a Raspberry Pi and an RTL-SDR, about €55–110).
-[fly-italy-adsb](https://github.com/flyitalyadsb/fly-italy-adsb) sends your data and MLAT to
-us: see the [feeder guide](https://flyitalyadsb.com/en/community/feeder/?utm_source=github&utm_campaign=org-profile).
-[Lightcone](https://flyitalyadsb.com/en/community/lightcone/?utm_source=github&utm_campaign=org-profile)
-then shows how many of the aircraft the network saw near you your receiver got, and how it
-compares with the receivers around it.
+What feeding gets you:
+
+- **The API with Pro limits, free:** 300 requests a minute, 10 million a month, the whole
+  world, on your Free keys, for non-commercial use. [Turn it on in My API](https://flyitalyadsb.com/en/data/api/account/?utm_source=github&utm_campaign=org-profile)
+  from your receiver's network.
+- **What flew past you:** [Lightcone](https://flyitalyadsb.com/en/community/lightcone/?utm_source=github&utm_campaign=org-profile) shows the aircraft
+  that passed near you and your receiver did not receive, and how you compare with the
+  receivers within 40 km. graphs1090 and tar1090 only show what you received.
+
+Set it up with ultrafeeder following the [feeder guide](https://flyitalyadsb.com/en/community/feeder/?utm_source=github&utm_campaign=org-profile).
+If your receiver already runs a decoder, the [fly-italy-adsb](https://github.com/flyitalyadsb/fly-italy-adsb)
+script adds the feed and MLAT.
 
 ## Repositories
 
@@ -67,10 +74,17 @@ richiesta, €49 al mese.** Oltre i limiti ricevi un 429 o un 403, mai costi ext
 [Chiave gratuita e documentazione](https://flyitalyadsb.com/dati/api/?utm_source=github&utm_campaign=org-profile).
 
 **Per i feeder.** La rete è fatta di ricevitori come il tuo (un Raspberry Pi e una chiavetta
-RTL-SDR, circa €55–110). [fly-italy-adsb](https://github.com/flyitalyadsb/fly-italy-adsb)
-ci manda i tuoi dati e la MLAT: la [guida per i feeder](https://flyitalyadsb.com/community/feeder/?utm_source=github&utm_campaign=org-profile).
-[Lightcone](https://flyitalyadsb.com/community/lightcone/?utm_source=github&utm_campaign=org-profile)
-ti mostra quanti degli aerei che la rete ha visto vicino a te ha ricevuto il tuo ricevitore,
-e come va rispetto ai ricevitori intorno.
+RTL-SDR, circa €55–110). Mandandoci i dati hai in più:
+
+- **l'API con i limiti Pro, gratis:** 300 richieste al minuto, 10 milioni al mese, tutto il
+  mondo, sulle tue chiavi Free, per uso non commerciale. [Attivali da La mia API](https://flyitalyadsb.com/dati/api/account/?utm_source=github&utm_campaign=org-profile)
+  dalla rete del ricevitore;
+- **cosa ti è passato accanto:** [Lightcone](https://flyitalyadsb.com/community/lightcone/?utm_source=github&utm_campaign=org-profile) mostra gli aerei
+  passati vicino a te che il tuo ricevitore non ha ricevuto e come vai rispetto ai ricevitori
+  entro 40 km. graphs1090 e tar1090 mostrano solo cosa hai ricevuto.
+
+Si configura con ultrafeeder seguendo la [guida per i feeder](https://flyitalyadsb.com/community/feeder/?utm_source=github&utm_campaign=org-profile).
+Se il ricevitore ha già un decoder, lo script [fly-italy-adsb](https://github.com/flyitalyadsb/fly-italy-adsb)
+aggiunge il feed e la MLAT.
 
 </details>
