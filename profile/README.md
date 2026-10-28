@@ -1,6 +1,6 @@
 # FlyItalyADSB
 
-A community network born in Italy and now global: about 3,200 receivers worldwide send us
+A global community network, born in Italy in 2020, with about 3,200 receivers: they send us
 their data directly, ADS-B and our own multilateration (MLAT), open and unfiltered.
 A free live map, a REST API and an MCP server for AI assistants.
 
@@ -62,9 +62,8 @@ Run by Nesso Labs S.r.l., Brescia, Italy.
 <details>
 <summary>In italiano</summary>
 
-Rete community nata in Italia e oggi globale: circa 3.200 ricevitori in tutto il mondo ci
-mandano i dati direttamente, ADS-B e la nostra multilaterazione (MLAT), aperti e non
-filtrati. Mappa live gratuita, API REST e server MCP per gli assistenti AI.
+Rete community globale, nata in Italia nel 2020, con circa 3.200 ricevitori: ci mandano i
+dati direttamente, ADS-B e la nostra multilaterazione (MLAT), aperti e non filtrati. Mappa live gratuita, API REST e server MCP per gli assistenti AI.
 
 **Per chi costruisce prodotti.** Posizioni di circa 11.000 aerei, aggiornate ogni 2 secondi,
 per qualsiasi punto della Terra; militari, PIA e LADD compresi. L'API si può usare in un
