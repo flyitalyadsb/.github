@@ -52,7 +52,7 @@ script adds the feed and MLAT.
 | [readsb](https://github.com/flyitalyadsb/readsb), [tar1090](https://github.com/flyitalyadsb/tar1090), [mlat-server](https://github.com/flyitalyadsb/mlat-server), [mlat-client](https://github.com/flyitalyadsb/mlat-client) | Our forks of the open-source decoder, map and MLAT tools |
 | [flarm-ogn-to-sbs](https://github.com/flyitalyadsb/flarm-ogn-to-sbs) | FLARM/OGN glider data as an SBS stream |
 
-[Live map](https://mappa.flyitalyadsb.com/?utm_source=github&utm_campaign=org-profile) ·
+[Live map](https://map.flyitalyadsb.com/?utm_source=github&utm_campaign=org-profile) ·
 [Status](https://flyitalyadsb.com/en/status/?utm_source=github&utm_campaign=org-profile) ·
 [Facts as JSON](https://flyitalyadsb.com/facts.json) ·
 [Contact](https://flyitalyadsb.com/en/contact/?utm_source=github&utm_campaign=org-profile)
