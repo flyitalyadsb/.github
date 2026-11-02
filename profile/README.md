@@ -6,7 +6,7 @@ A free live map, a REST API and an MCP server for AI assistants.
 
 ## For people building products
 
-- Live positions of about 11,000 aircraft, updated every 2 seconds, for any point on Earth.
+- Live positions of about 11,000 aircraft, updated every half second, for any point on Earth.
 - Unfiltered: military, PIA and LADD aircraft are included.
 - You can use the API in a product you sell on every plan, Free included, with one
   attribution line (CC BY-SA 4.0).
@@ -65,7 +65,7 @@ Run by Nesso Labs S.r.l., Brescia, Italy.
 Rete community globale, nata in Italia nel 2020, con circa 3.200 ricevitori: ci mandano i
 dati direttamente, ADS-B e la nostra multilaterazione (MLAT), aperti e non filtrati. Mappa live gratuita, API REST e server MCP per gli assistenti AI.
 
-**Per chi costruisce prodotti.** Posizioni di circa 11.000 aerei, aggiornate ogni 2 secondi,
+**Per chi costruisce prodotti.** Posizioni di circa 11.000 aerei, aggiornate ogni mezzo secondo,
 per qualsiasi punto della Terra; militari, PIA e LADD compresi. L'API si può usare in un
 prodotto che vendi con ogni piano, Free compreso, con una riga di attribuzione (CC BY-SA 4.0).
 Free e Starter coprono la tua zona (500 e 1.000 km); **Pro: il mondo intero in una
