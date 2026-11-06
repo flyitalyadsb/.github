@@ -27,6 +27,14 @@ curl -H "X-Api-Key: $FLYITALYADSB_KEY" \
 
 Code written for the ADS-B Exchange v2 API works with a new host and key.
 
+## Our MLAT server, open source
+
+[mlat-ng](https://github.com/flyitalyadsb/mlat-ng) is the multilateration server we wrote in Rust
+and published under the AGPL-3.0. It locates aircraft that send no ADS-B position, military
+included. Measured against mlat-server from 26 to 31 October 2026 on the same feeder traffic,
+it was closer to the ADS-B position 66% of the time, with a median error of 177 m against
+273 m and 9.1% more aircraft without ADS-B. [How it was measured](https://flyitalyadsb.com/en/community/mlat-server/?utm_source=github&utm_campaign=org-profile).
+
 ## For feeders
 
 The network is made of receivers like yours (a Raspberry Pi and an RTL-SDR, about €55–110).
@@ -48,6 +56,7 @@ script adds the feed and MLAT.
 | Repository | What it is |
 |---|---|
 | [adsb-api](https://github.com/flyitalyadsb/adsb-api) | API quickstart, examples, OpenAPI spec, `llms.txt` |
+| [mlat-ng](https://github.com/flyitalyadsb/mlat-ng) | Our own MLAT server, in Rust (AGPL-3.0) |
 | [fly-italy-adsb](https://github.com/flyitalyadsb/fly-italy-adsb) | Install script for feeders |
 | [readsb](https://github.com/flyitalyadsb/readsb), [tar1090](https://github.com/flyitalyadsb/tar1090), [mlat-server](https://github.com/flyitalyadsb/mlat-server), [mlat-client](https://github.com/flyitalyadsb/mlat-client) | Our forks of the open-source decoder, map and MLAT tools |
 | [flarm-ogn-to-sbs](https://github.com/flyitalyadsb/flarm-ogn-to-sbs) | FLARM/OGN glider data as an SBS stream |
@@ -71,6 +80,13 @@ prodotto che vendi con ogni piano, Free compreso, con una riga di attribuzione (
 Free e Starter coprono la tua zona (500 e 1.000 km); **Pro: il mondo intero in una
 richiesta, €49 al mese.** Oltre i limiti ricevi un 429 o un 403, mai costi extra.
 [Chiave gratuita e documentazione](https://flyitalyadsb.com/dati/api/?utm_source=github&utm_campaign=org-profile).
+
+**Il nostro server MLAT, open source.** [mlat-ng](https://github.com/flyitalyadsb/mlat-ng) è il
+server di multilaterazione che abbiamo scritto in Rust e pubblicato con licenza AGPL-3.0: localizza
+gli aerei che non trasmettono la posizione ADS-B, militari compresi. Confrontato con mlat-server dal
+26 al 31 ottobre 2026 sullo stesso traffico dei feeder, era più vicino alla posizione ADS-B nel 66%
+dei casi, con un errore mediano di 177 m contro 273 m e il 9,1% di aerei senza ADS-B in più.
+[Come l'abbiamo misurato](https://flyitalyadsb.com/community/server-mlat/?utm_source=github&utm_campaign=org-profile).
 
 **Per i feeder.** La rete è fatta di ricevitori come il tuo (un Raspberry Pi e una chiavetta
 RTL-SDR, circa €55–110). Mandandoci i dati hai in più:
