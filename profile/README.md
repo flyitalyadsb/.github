@@ -58,7 +58,7 @@ script adds the feed and MLAT.
 | [adsb-api](https://github.com/flyitalyadsb/adsb-api) | API quickstart, examples, OpenAPI spec, `llms.txt` |
 | [mlat-ng](https://github.com/flyitalyadsb/mlat-ng) | Our own MLAT server, in Rust (AGPL-3.0) |
 | [fly-italy-adsb](https://github.com/flyitalyadsb/fly-italy-adsb) | Install script for feeders |
-| [readsb](https://github.com/flyitalyadsb/readsb), [tar1090](https://github.com/flyitalyadsb/tar1090), [mlat-server](https://github.com/flyitalyadsb/mlat-server), [mlat-client](https://github.com/flyitalyadsb/mlat-client) | Our forks of the open-source decoder, map and MLAT tools |
+| [readsb](https://github.com/flyitalyadsb/readsb), [tar1090](https://github.com/flyitalyadsb/tar1090), [mlat-client](https://github.com/flyitalyadsb/mlat-client) | Our forks of the open-source decoder, map and MLAT client |
 | [flarm-ogn-to-sbs](https://github.com/flyitalyadsb/flarm-ogn-to-sbs) | FLARM/OGN glider data as an SBS stream |
 
 [Live map](https://map.flyitalyadsb.com/?utm_source=github&utm_campaign=org-profile) ·
