@@ -40,8 +40,9 @@ it was closer to the ADS-B position 66% of the time, with a median error of 177 
 The network is made of receivers like yours (a Raspberry Pi and an RTL-SDR, about €55–110).
 What feeding gets you:
 
-- **The API with Pro limits, free:** 300 requests a minute, 10 million a month, the whole
-  world, on your Free keys, for non-commercial use. [Turn it on in My API](https://flyitalyadsb.com/en/data/api/account/?utm_source=github&utm_campaign=org-profile)
+- **The API with Pro's limits and features, free:** 300 requests a minute, 10 million a
+  month, the whole world, plus overflights, emergencies, tracks of the last 90 days and the
+  runway in use, on your Free keys, for non-commercial use. [Turn it on in My API](https://flyitalyadsb.com/en/data/api/account/?utm_source=github&utm_campaign=org-profile)
   from your receiver's network.
 - **What flew past you:** [Lightcone](https://flyitalyadsb.com/en/community/lightcone/?utm_source=github&utm_campaign=org-profile) shows the aircraft
   that passed near you and your receiver did not receive, and how you compare with the
@@ -91,8 +92,9 @@ dei casi, con un errore mediano di 177 m contro 273 m e il 9,1% di aerei senza A
 **Per i feeder.** La rete è fatta di ricevitori come il tuo (un Raspberry Pi e una chiavetta
 RTL-SDR, circa €55–110). Mandandoci i dati hai in più:
 
-- **l'API con i limiti Pro, gratis:** 300 richieste al minuto, 10 milioni al mese, tutto il
-  mondo, sulle tue chiavi Free, per uso non commerciale. [Attivali da La mia API](https://flyitalyadsb.com/dati/api/account/?utm_source=github&utm_campaign=org-profile)
+- **l'API con i limiti e le funzioni di Pro, gratis:** 300 richieste al minuto, 10 milioni
+  al mese, tutto il mondo, più sorvoli, emergenze, tracce degli ultimi 90 giorni e pista in
+  uso, sulle tue chiavi Free, per uso non commerciale. [Attivali da La mia API](https://flyitalyadsb.com/dati/api/account/?utm_source=github&utm_campaign=org-profile)
   dalla rete del ricevitore;
 - **cosa ti è passato accanto:** [Lightcone](https://flyitalyadsb.com/community/lightcone/?utm_source=github&utm_campaign=org-profile) mostra gli aerei
   passati vicino a te che il tuo ricevitore non ha ricevuto e come vai rispetto ai ricevitori
